@@ -21,6 +21,7 @@ public void amma() throws InterruptedException {
 	driver.get("https://www.amazon.com");
 	Thread.sleep(2000);
 	driver.close();
+	driver.close();
 	
 	
 	
