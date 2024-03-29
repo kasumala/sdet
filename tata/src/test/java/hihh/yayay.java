@@ -20,6 +20,7 @@ public void amma() throws InterruptedException {
 	WebDriver driver = new ChromeDriver();
 	driver.get("https://www.amazon.com");
 	Thread.sleep(2000);
+	driver.close();
 	
 	
 	
